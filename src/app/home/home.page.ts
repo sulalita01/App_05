@@ -1,4 +1,7 @@
+import { state } from '@angular/animations';
+import { DetailPage } from './../detail/detail.page';
 import { Component } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +10,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private detail:NavController) {}
   items=[
     {
       id: 1,
@@ -41,5 +44,12 @@ export class HomePage {
       ImageURL: 'https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/PDP-Highlight-Surface-Laptop-5-Sage:VP2-859x540',
     },
   ]
+  gotoDetail(i:any){
+    this.detail.navigateForward ('/detail',{state: {i}})
+  }
 
 }
+
+
+
+

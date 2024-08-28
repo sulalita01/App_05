@@ -1,2 +1,56 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+:root {
+	--ion-color-pink: #fe8bd4;
+	--ion-color-pink-rgb: 254,139,212;
+	--ion-color-pink-contrast: #000000;
+	--ion-color-pink-contrast-rgb: 0,0,0;
+	--ion-color-pink-shade: #e07abb;
+	--ion-color-pink-tint: #fe97d8;
+}
+
+.ion-color-pink {
+	--ion-color-base: var(--ion-color-pink);
+	--ion-color-base-rgb: var(--ion-color-pink-rgb);
+	--ion-color-contrast: var(--ion-color-pink-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pink-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pink-shade);
+	--ion-color-tint: var(--ion-color-pink-tint);
+}
+
+:root {
+	--ion-color-pink2: #fed2f0;
+	--ion-color-pink2-rgb: 254,210,240;
+	--ion-color-pink2-contrast: #000000;
+	--ion-color-pink2-contrast-rgb: 0,0,0;
+	--ion-color-pink2-shade: #e0b9d3;
+	--ion-color-pink2-tint: #fed7f2;
+}
+
+.ion-color-pink2 {
+	--ion-color-base: var(--ion-color-pink2);
+	--ion-color-base-rgb: var(--ion-color-pink2-rgb);
+	--ion-color-contrast: var(--ion-color-pink2-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-pink2-contrast-rgb);
+	--ion-color-shade: var(--ion-color-pink2-shade);
+	--ion-color-tint: var(--ion-color-pink2-tint);
+}
+
+:root {
+	--ion-color-mint: #72dab2;
+	--ion-color-mint-rgb: 114,218,178;
+	--ion-color-mint-contrast: #000000;
+	--ion-color-mint-contrast-rgb: 0,0,0;
+	--ion-color-mint-shade: #64c09d;
+	--ion-color-mint-tint: #80deba;
+}
+
+.ion-color-mint {
+	--ion-color-base: var(--ion-color-mint);
+	--ion-color-base-rgb: var(--ion-color-mint-rgb);
+	--ion-color-contrast: var(--ion-color-mint-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-mint-contrast-rgb);
+	--ion-color-shade: var(--ion-color-mint-shade);
+	--ion-color-tint: var(--ion-color-mint-tint);
+}
